@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0
+}
+
+.todo{
+    background:linear-gradient(to right bottom, rgb(155, 240, 255), rgb(155, 54, 146));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    height: 100vh;
+}
+.login-close{
+    margin-left: 23.5rem;
+    margin-top: 18px;
+    margin-right: 5px;
+    font-size: 28px;
+}
+.title{
+    font-size: 33px;
+    margin-top: 0.1rem;
+    margin-bottom: 0.2rem;
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 55%;
+    margin-top: 3rem;
+    
+}
+form>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start; 
+    gap:3px;  
+    
+}
+.div-1{
+    margin-top: 1rem;
+}
+label{
+    font-size: 20px;
+}
+#campo-email{
+    width: 20rem;
+    height: 1.7rem;
+    
+}
+#campo-senha{ 
+    width: 20rem;
+    height: 1.7rem;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.div-3{
+    display: flex;
+    justify-content:center;
+    align-items: center;  
+    margin: 20px;
+}
+.butao{
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(to right bottom, rgb(155, 240, 255), rgb(155, 54, 146)); ;
+    border-style: none;
+}
+.div-3>p{
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+}
+
